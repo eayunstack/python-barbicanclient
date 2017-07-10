@@ -16,7 +16,7 @@ import base64
 import functools
 import logging
 
-from oslo_utils.timeutils import parse_isotime
+from oslo.utils.timeutils import parse_isotime
 import six
 
 from barbicanclient import acls as acl_manager

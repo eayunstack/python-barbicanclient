@@ -15,7 +15,7 @@
 
 import logging
 
-from oslo_utils.timeutils import parse_isotime
+from oslo.utils.timeutils import parse_isotime
 
 from barbicanclient import base
 from barbicanclient import formatter
