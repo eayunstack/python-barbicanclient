@@ -16,7 +16,7 @@ See http://docs.openstack.org/developer/oslo.i18n/usage.html .
 
 """
 
-import oslo.i18n as i18n
+import oslo_i18n as i18n
 
 
 _translators = i18n.TranslatorFactory(domain='python-barbicanclient')
