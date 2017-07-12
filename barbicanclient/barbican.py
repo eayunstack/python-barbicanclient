@@ -61,7 +61,6 @@ class Barbican(app.App):
             version=version.__version__,
             command_manager=commandmanager.CommandManager(
                 'openstack.key_manager.v1'),
-            deferred_help=True,
             **kwargs
         )
 
