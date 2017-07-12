@@ -61,7 +61,6 @@ class Barbican(app.App):
             version=version.__version__,
             command_manager=commandmanager.CommandManager(
                 'openstack.key_manager.v1'),
-            deferred_help=True,
             **kwargs
         )
 
@@ -339,7 +338,6 @@ class Barbican(app.App):
 
 
 def main(argv=sys.argv[1:]):
-    logging.basicConfig()
     LOG.warning("This Barbican CLI interface has been deprecated and will be "
                 "removed in the O release. Please use the openstack unified "
                 "client instead.")
